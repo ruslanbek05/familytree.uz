@@ -13,10 +13,10 @@ class JConfig {
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
+	public $host = '';
+	public $user = '';
 	public $password = '';
-	public $db = 'familytree_db';
+	public $db = '';
 	public $dbprefix = 'ft_';
 	public $live_site = '';
 	public $secret = 'sss';
@@ -38,7 +38,7 @@ class JConfig {
 	public $smtpauth = '0';
 	public $smtpuser = '';
 	public $smtppass = '';
-	public $smtphost = 'localhost';
+	public $smtphost = '';
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
 	public $caching = '0';
